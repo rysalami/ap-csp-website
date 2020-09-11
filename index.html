@@ -1,14 +1,78 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Welcome to my website!</title>
-    <button type=".button"><a href="index.html">Home</a></button>
-    <button type="button"><a href="portfolio.html">Portfolio</a></button>
-	<button type="button"><a href="aboutme.html">About me</a></button>
-    <h1>Hi, I am Ryan Eslami. Welcome to my homepage.</h1>	
-  </head>
-  <body bgcolor="#1ABCE4">
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to My Wesbiste!</title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-  </body>
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:courier new;
+  font-size:175%;
+}
+
+li a:hover {
+  background-color: #999999;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">Music Downloads</a></li>
+</ul>
+
+
+<style>
+body {
+	background-image: url('HOME.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;	
+	}
+</style>
+
+
+
+
+
+
+<body style="background-color:lightgray;">
+<center>
+<p style="color:black;font-size:175%;font-family:courier new;">Welcome to my Homepage</p>
+<img src="iran.png" alt="Iranian Flag">
+</center>
+
+<p style="color:black;font-size:100%;font-family:courier new;">Take a listen to the Imperial Iranian National Anthem!</p>
+<audio controls autoplay>
+  <source src="iran.ogg" type="audio/ogg">
+  <source src="iran.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<a href="School Days.zip" download="School Days CD1">Download Album</a>
+
+<a href="School Days.zip" download>
+	<img src="iu.jpeg">
+</a>
+
+
+
+</body>
 </html>
